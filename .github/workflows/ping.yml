@@ -8,9 +8,14 @@ on:
 jobs:
   ping:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Ping Supabase Project 1
+
+      - name: Ping StudyAxis Project 1
         run: curl -s https://iqconwxvxqsqnxmrhhop.supabase.co/rest/v1/
 
-      - name: Ping Supabase Project 2
+      - name: Ping StudyAxis Project 2
         run: curl -s https://echltjhntwftsfmazves.supabase.co/rest/v1/
+
+      - name: Ping StudyAxis Project 3
+        run: curl -s https://xsavnjgnowobrserovrk.supabase.co/rest/v1/
